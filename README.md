@@ -1,15 +1,17 @@
 # Vehicle-Movement-Analysis-Project
 Main objective of this project is to develop an Edge AI-based solution that can analyse vehicle movement in and out of a college campus using data from cameras capturing vehicle photos and license plates. The solution should provide insights on vehicle movement patterns, parking occupancy, and match vehicles to an approved vehicle database.
 This project aims to detect and recognize vehicle license plates from images, generate entry and exit times for each vehicle, calculate the total parking duration, and visualize vehicle counts per hour to identify peak parking times. Additionally, it simulates a parking lot and assigns vehicles to parking spots with random entry times. The project uses OpenCV for image processing, Tesseract for Optical Character Recognition (OCR), and Pandas for data manipulation and analysis. Table of Contents Requirements Setup Project Structure Step-by-Step Process Image Processing and OCR Time Generation Data Storage Peak Hour Analysis Parking Lot Simulation Visualization Running the Project.
+
+
 Requirements
 
-> Python 3.x
-> OpenCV
-> Tesseract-OCR
-> NumPy
-> Pandas
-> Matplotlib
-> imutils (for image resizing)
+1. Python 3.x
+2. OpenCV
+3. Tesseract-OCR
+4. NumPy
+5. Pandas
+6. Matplotlib
+7. imutils (for image resizing)
 
 - **Setup**
   - Install the required Python packages: `pip install numpy pandas matplotlib imutils pytesseract`
